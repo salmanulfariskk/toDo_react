@@ -7,6 +7,18 @@ body {
   background-color: #020631;
 }
 
+.btn-icon {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  transition: background-color 150ms;
+  border: none;
+  border-radius: 99999px;
+}
+
 .app {
   position: absolute;
   top: 10%;
